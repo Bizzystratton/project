@@ -1,4 +1,92 @@
 body {
     display: flex;
     flex-flow: column wrap;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+img {
+    height: 100px;
+    width: 150px;
+}
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4px;
+    background: mediumseagreen;
+}
+
+.logo {
+    color: aliceblue;
+    font-size: 32px;
+    font-weight: 900;
+    font-style: italic;
+}
+
+.left, .right {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 15px;
+}
+
+ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+.first {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4px;
+    background: mediumseagreen;
+}
+
+.top-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-self: center;
+    background: mediumseagreen;
+}
+
+.styles {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 32px;
+    font-size: 36px;
+    font-weight: 900;
+}
+.styles-container {
+    display: flex;
+    justify-content: center;
+    gap: 52px;
+}
+
+.midbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.footer {
+    background: silver;
+    padding: 3px 200px;
 }
